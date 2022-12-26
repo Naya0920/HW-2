@@ -19,3 +19,21 @@ else
     Console.WriteLine("no third digit");
 }
 */
+//Задача№3
+
+Console.Write("Enter a number for the day of the week: ");
+int dayNumber = Convert.ToInt32(Console.ReadLine());
+
+void CheckingTheDayOfTheWeek (int dayNumber)
+{
+    if (dayNumber == 6 || dayNumber == 7)
+    {
+        Console.WriteLine("Day off");
+    }
+    else if (dayNumber < 1 || dayNumber > 7)
+    {
+        Console.WriteLine("It's not a day of the week");
+    }
+    else Console.WriteLine("Not a day off");
+}
+CheckingTheDayOfTheWeek(dayNumber);
