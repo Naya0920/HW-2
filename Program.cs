@@ -1,4 +1,37 @@
-﻿//Задача№1
+﻿// 2 задачи с предыдущей домашней работы,которые не пушились
+// Задача№2
+/*
+Console.Write("Input a first number: ");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.Write("Input a second number: ");
+int b = Convert.ToInt32(Console.ReadLine());
+Console.Write("Input a third number: ");
+int c = Convert.ToInt32(Console.ReadLine());
+
+int max = a;
+
+ if(b > max) 
+ max = b;
+ if(c > max)
+ max = c;
+ Console.WriteLine(max);
+*/
+// Задача№3 
+/*
+Console.Write("Input a first number: ");
+int a = Convert.ToInt32(Console.ReadLine());
+
+if(a % 2==0)
+{
+    Console.Write("Number is even");
+}
+else 
+{
+    Console.Write("Odd number");
+}
+*/
+// Нынешняя домашняя работа 
+//Задача№1
 /*
 Console.Write("Enter a three-digit number: ");
 int threeDigitNumber = Convert.ToInt32(Console.ReadLine());
@@ -20,7 +53,7 @@ else
 }
 */
 //Задача№3
-
+/*
 Console.Write("Enter a number for the day of the week: ");
 int dayNumber = Convert.ToInt32(Console.ReadLine());
 
@@ -37,3 +70,4 @@ void CheckingTheDayOfTheWeek (int dayNumber)
     else Console.WriteLine("Not a day off");
 }
 CheckingTheDayOfTheWeek(dayNumber);
+*/
